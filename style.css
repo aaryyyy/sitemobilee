@@ -1,0 +1,33 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+.lista-menu {
+    display: none;
+    position: absolute;
+    _______: _______;
+    _______: _______;
+}
+.banner__pesquisa {
+    background-color: _________________;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    _______________: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::___________________ {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    ______________: center;
+    color: var(--branco);
+    _______________: url("../img/Lupa.svg") no-repeat;
+    background-position: 1em;
+}
+.contato__email::____________ {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    _______________: url("../img/cartinha.svg") no-________;
+    padding-left: 2em;
+}
