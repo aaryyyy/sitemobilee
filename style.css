@@ -1,4 +1,6 @@
-:root {
+root{
+    --cor-botao-e-titulo : #191970;
+}:root {
     --cor-de-fundo: #EBECEE;
 }
 .lista-menu {
@@ -6,6 +8,16 @@
     position: absolute;
     _______: _______;
     _______: _______;
+}
+:root {
+    --fonte-principal: "__________";
+}
+body {
+    font-family: var(______________);
+    font-weight: ______;
+}
+.lista-menu__titulo{
+    _____________: 700;
 }
 .banner__pesquisa {
     background-color: _________________;
@@ -24,10 +36,4 @@
     color: var(--branco);
     _______________: url("../img/Lupa.svg") no-repeat;
     background-position: 1em;
-}
-.contato__email::____________ {
-    font-family: var(--fonte-principal);
-    color: var(--azul);
-    _______________: url("../img/cartinha.svg") no-________;
-    padding-left: 2em;
 }
